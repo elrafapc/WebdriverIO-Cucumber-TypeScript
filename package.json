@@ -1,0 +1,33 @@
+{
+  "name": "webdriveriotests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/elrafapc/webdriveriotests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/elrafapc/webdriveriotests/issues"
+  },
+  "homepage": "https://gitlab.com/elrafapc/webdriveriotests#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.7.3"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.7.3",
+    "@wdio/cucumber-framework": "^7.7.3",
+    "@wdio/local-runner": "^7.7.3",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chromedriver": "^91.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "wdio-chromedriver-service": "^7.1.0"
+  }
+}
